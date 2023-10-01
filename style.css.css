@@ -1,0 +1,110 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+body{
+    position:relative;
+    height: 100vh;
+}
+.blog{
+    border: 4px solid black;
+    width: 875px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.blog::before{
+    content: "SALE";
+    background-color:red;
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px 24px;
+
+    top:-20px;
+    left:-40px;
+    position: absolute;
+    color: white;
+    /* font-weight:bold; */
+}
+h1{
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+.page-header{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #f7f7f7;
+}
+ul{
+    margin-left:20px;
+    /* list-style-position: inside; */
+}
+
+.price{
+    font-weight: 900;
+    /* font-size: px; */
+}
+
+.free{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: #777;
+}
+
+.kutu{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+margin-left: 8px;
+}
+.kutu1{
+background-color: black;
+margin-left: 0px;
+
+}
+
+
+.kutu3{background-color: blue;
+}
+.kutu4{background-color: red;
+}
+.kutu5{background-color: yellow;
+}
+.kutu6{background-color: green;
+
+}
+.kutu2{background-color: brown;
+}
+
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+.btn{
+    background-color: #000;
+    color: white;
+    width: 100%;
+
+    font-size:24px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color:black;
+    background-color: #fff;
+}
+
+button.like{
+    font-size: 22px;
+    padding:20px;
+    cursor: pointer;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}
