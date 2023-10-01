@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
     line-height: 1.5em;
+    font-size: 14px;
+
+
 }
 body{
     position:relative;
@@ -36,6 +39,12 @@ h1{
     background-color: #f7f7f7;
     padding: 20px;
 }
+
+h2{
+    font-size:16px;
+    text-transform: uppercase;
+
+}
 .page-header{
     text-align: center;
     text-transform: uppercase;
@@ -43,23 +52,37 @@ h1{
 }
 ul{
     margin-left:20px;
+    margin-top: 25px;
+    list-style-type: square;
+    /* display: inline-block;
+    line-height:1.5em ; */
     /* list-style-position: inside; */
 }
 li{
-    line-height: 2.5;
-
+    margin-bottom: 3px;  
 }
 
 .price{
     font-weight: 900;
+    float: left;
+    font-size: 25px;
     /* font-size: px; */
 }
 
 .free{
     text-transform: uppercase;
+    padding-top:5px;
     font-size: 12px;
     font-weight: bold;
     color: #777;
+    float: right;
+
+}
+
+.clearfix{
+    clear: both;
+    margin-top: 60px;
+    
 }
 
 .kutu{
@@ -67,7 +90,9 @@ li{
     height: 25px;
     display: inline-block;
 margin-left: 8px;
+margin-top: 20px;
 }
+
 .kutu1{
 background-color: black;
 margin-left: 0px;
@@ -123,6 +148,7 @@ FLOATS
 
 */
 .sections{
+
     
 }
 .shoes{
@@ -131,23 +157,30 @@ FLOATS
 
 }
 .left-section{
-    background-color: yellow;
+    /* background-color: yellow; */
     float:left;
     width:300px;
     height: 300px;
+    margin-right: 20px;
 }
 .middle-section{
     float: left;
-    width:267px;
-    background-color: yellow;
-
+    width:250px;
+    margin-right: 20px;
+    margin-top: 20px;;
+    /* background-color: yellow; */
 
 }
 
 
 .right-section{
     float:right;
-    width: 300px;
-    background-color: yellow;
+    width: 260px;
+    /* background-color: yellow; */
+    margin-top: 20px;;
+
+   
+    /* display: inline-block;
+    line-height: 30px; */
 
 }
