@@ -1,18 +1,21 @@
 *{
-    font-family: sans-serif;
+    font-family:sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     line-height: 1.5em;
 }
 body{
     position:relative;
     height: 100vh;
+    margin-top:50px;
 }
 .blog{
     border: 4px solid black;
     width: 875px;
     margin: 0 auto;
     position: relative;
+    height: 438px;
 
 }
 
@@ -41,6 +44,10 @@ h1{
 ul{
     margin-left:20px;
     /* list-style-position: inside; */
+}
+li{
+    line-height: 2.5;
+
 }
 
 .price{
@@ -87,9 +94,11 @@ a:visited{
     color: black;
 }
 .btn{
+    border: none;
     background-color: #000;
     color: white;
     width: 100%;
+    height: 55px;
 
     font-size:24px;
     cursor: pointer;
@@ -100,11 +109,45 @@ a:visited{
     background-color: #fff;
 }
 
-button.like{
+/* button.like{
     font-size: 22px;
     padding:20px;
     cursor: pointer;
     position:absolute;
     bottom: 0;
     right: 0;
+} */
+
+/* 
+FLOATS
+
+*/
+.sections{
+    
+}
+.shoes{
+    width: 300px;
+    height:auto;
+
+}
+.left-section{
+    background-color: yellow;
+    float:left;
+    width:300px;
+    height: 300px;
+}
+.middle-section{
+    float: left;
+    width:267px;
+    background-color: yellow;
+
+
+}
+
+
+.right-section{
+    float:right;
+    width: 300px;
+    background-color: yellow;
+
 }
